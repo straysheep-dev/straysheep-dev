@@ -13,6 +13,7 @@ I'm here to learn security and do what I can to contribute back or share things 
 
 ### Things you may find useful...
 
+- Automated [terraforming](https://github.com/straysheep-dev/terraform-configs) of a [wireguard VPN server](https://github.com/straysheep-dev/ansible-configs/tree/main/build-wireguard-server) with network monitoring
 - [Automate Flat / Home Network Monitoring Thanks to BHIS](https://github.com/straysheep-dev/network-visibility)
 - [pfSense as an Office Router or in a Home Lab](https://github.com/straysheep-dev/cheatsheets/blob/main/pfsense/pfsense.md)
 - [Using and Managing OpenWRT as an AP or in a Home Lab with pfSense](https://github.com/straysheep-dev/linux-configs/tree/main/openwrt)

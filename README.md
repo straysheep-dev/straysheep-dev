@@ -4,7 +4,7 @@ I'm here to learn security and do what I can to contribute back or share things 
 
 
 ### Certifications
-`OSCP` 🐉
+`OSCP` 🐉 `OSWP` 🛜
 
 `PNPT` 🧭️
 

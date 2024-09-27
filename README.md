@@ -28,7 +28,7 @@ Hi, I'm straysheep-dev. 👋
 Utilities and configuration files accompanied by guides, focusing on security. These include web browsers, GPG, SSH, DNS, VPN's, shell profiles, hypervisors, tools to parse and summarize system processes, network activity, auditd logs, strings in project files (based on bstrings) and more.
 
 
-## [windows-configs](https://github.com/straysheep-dev/windows-configs) ![Static Badge](https://img.shields.io/badge/Windows-blue?logo=windows) ![Static Badge](https://img.shields.io/badge/PowerShell-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/MIT-red) ![Static Badge](https://img.shields.io/badge/CC_BY--SA_4.0-orange)
+## [windows-configs](https://github.com/straysheep-dev/windows-configs) ![Static Badge](https://img.shields.io/badge/Windows-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/PowerShell-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/MIT-red) ![Static Badge](https://img.shields.io/badge/CC_BY--SA_4.0-orange)
 
 PowerShell modules and scripts used to configure windows or automate tasks. Plus an extensive walkthrough of Windows specific items such as Hyper-V usage, Windows Sandbox, WSL + USB, logging & monitoring, and more.
 
@@ -48,7 +48,7 @@ How vagrant works, and everything needed to get started using it with security i
 Ready to use terraform templates, and an easy to follow guide to go from installing, to deploying resources. Also includes guidance on fixing partial deployments, secrets management, and how to generate an ansible inventory from your deployed resources.
 
 
-## [alert-service](https://github.com/straysheep-dev/alert-service) ![Static Badge](https://img.shields.io/badge/Windows-blue?&logo=windows) ![Static Badge](https://img.shields.io/badge/Linux-white?&logo=linux&logoColor=black) ![Static Badge](https://img.shields.io/badge/PowerShell-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/Python3-blue?&logo=python&logoColor=gold) ![Static Badge](https://img.shields.io/badge/MIT-red)
+## [alert-service](https://github.com/straysheep-dev/alert-service) ![Static Badge](https://img.shields.io/badge/Windows-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/Linux-white?&logo=linux&logoColor=black) ![Static Badge](https://img.shields.io/badge/PowerShell-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/Python3-blue?&logo=python&logoColor=gold) ![Static Badge](https://img.shields.io/badge/MIT-red)
 
 Webhook based alerting (Slack, Discord...) for events, account access, honey files, etc. It's meant as a follow up to [IppSec's video on this topic](https://www.youtube.com/watch?v=J9owPmgmfvo&t=1545s), with ready-to-use examples of sending an alert on both Windows and Linux using [cyber deception](https://github.com/strandjs/IntroLabs/blob/master/IntroClassFiles/navigation.md) to catch malicious behavior early.
 

@@ -38,6 +38,11 @@ PowerShell modules and scripts used to configure windows or automate tasks. Plus
 A collection of ansible roles, with guidance on writing, debugging, and linting ansible code. This includes secrets management, testing plays, and more. The roles are meant to be mixed and used however needed, and offer conditional options for deployment. The main `playbook.yml` file is commented to help you get started.
 
 
+## [packer-configs](https://github.com/straysheep-dev/packer-configs) ![Static Badge](https://img.shields.io/badge/Packer-white?&logo=packer&logoColor=green) ![Static Badge](https://img.shields.io/badge/MIT-red)
+
+Packer templates ready-to-use, with resouces to help you learn, modify, and build upon what's here. Currently the builds target QEMU and virt-manager. Automation scripts are included to import machines into the relevant GUI without having to configure anything in a GUI. Packer has a staggering number of moving parts to it, depending on how you use it. Effort has been made to comment and document as much as possible, both for packer usage itself and for each template.
+
+
 ## [vagrant-configs](https://github.com/straysheep-dev/vagrant-configs) ![Static Badge](https://img.shields.io/badge/Vagrant-white?&logo=vagrant&logoColor=blue) ![Static Badge](https://img.shields.io/badge/MIT-red)
 
 How vagrant works, and everything needed to get started using it with security in mind. Includes a sample Vagrantfile for Kali on Hyper-V and VirtualBox showing what provider settings you may want to use. Quirks of Hyper-V and how to resolve them are covered. Lastly, resources to be aware of for building a home lab are linked.

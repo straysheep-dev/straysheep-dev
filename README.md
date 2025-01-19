@@ -1,27 +1,29 @@
 ## [straysheep.dev](https://straysheep.dev) 🌐
 
-Hi, I'm straysheep-dev. 👋
+**Hi, I'm straysheep-dev. 👋**
 
-⚔️ I'm here learning security from an offensive perspective and documenting things in a useful way as I go.
+| About | Goals & Current Work |
+| :--- | :--- |
+| 🔸⚔️ I'm here learning security from an offensive perspective...<br> 🔸📚 ...and documenting things in a useful way as I go.<br> 🔸🛡️ I also focus on building defensive, or "visibility", tools...<br> 🔸📦 ...and configuration templates learned from exploring systems. | 🔸 🎯 Other pentesting certifications<br> 🔸 🏗️ Git, infrastructure, automation <br> 🔸 🛠️ Building utilites for everyday use |
 
-🛡️ I also focus on building defensive (or "visibility") tools, and configuration templates learned from applying offensive techniques to systems.
 
-### Certifications
+**Connect**
 
-![Static Badge](https://img.shields.io/badge/OSCP-orange) ![Static Badge](https://img.shields.io/badge/OSWP-blue) ![Static Badge](https://img.shields.io/badge/PNPT-purple) ![Static Badge](https://img.shields.io/badge/eCPPT-orange) ![Static Badge](https://img.shields.io/badge/eCMAP-blue) ![Static Badge](https://img.shields.io/badge/eJPT-red)
+| ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=github) <sup>**straysheep-dev**</sup> | ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=gitlab) <sup>**straysheep-dev**</sup> | ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=discord) <sup>**straysheep_dev**</sup> | ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=hackthebox&logoColor=green) <sup>**straysheepdev**</sup> | ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=tryhackme&logoColor=red) <sup>**straysheep.dev**</sup> |
+| --- | --- | --- | --- | --- |
 
-## Connect
 
-| ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=github) | **straysheep-dev** |
-| --- | --- |
-| ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=gitlab) | **straysheep-dev** |
-| ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=discord) | **straysheep_dev** |
-| ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=hackthebox&logoColor=green) | **straysheepdev** |
-| ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=tryhackme&logoColor=red) | **straysheep.dev** |
+**Certifications**
+
+| ![Static Badge](https://img.shields.io/badge/OSCP-orange) | ![Static Badge](https://img.shields.io/badge/OSWP-blue) | ![Static Badge](https://img.shields.io/badge/PNPT-purple) | ![Static Badge](https://img.shields.io/badge/eCPPT-orange) | ![Static Badge](https://img.shields.io/badge/eCMAP-blue) | ![Static Badge](https://img.shields.io/badge/eJPT-red)
+| --- | --- | --- | --- | --- | --- |
+
 
 ## Projects
 
-⬇️ Core projects. ➡️ My [guides and utilities](https://straysheep.dev/#__tabbed_1_3). ➡️ My [blog](https://straysheep.dev/blog/) illustrating various topics.
+| 🔸 [**Guides and Utilities**](https://straysheep.dev/#__tabbed_1_3) | 🔸 [**Blog**](https://straysheep.dev/blog/) | 🔸 [**Featured Tools**](#featured-tools) |
+| --- | --- | --- |
+
 
 ## [linux-configs](https://github.com/straysheep-dev/linux-configs) ![Static Badge](https://img.shields.io/badge/Ubuntu-orange?logo=ubuntu&logoColor=white) ![Static Badge](https://img.shields.io/badge/Fedora-white?logo=fedora) ![Static Badge](https://img.shields.io/badge/Debian-white?logo=debian&logoColor=red) ![Static Badge](https://img.shields.io/badge/pfSense-blue?logo=pfsense&logoColor=white) ![Static Badge](https://img.shields.io/badge/OpenWRT-white?logo=openwrt) ![Static Badge](https://img.shields.io/badge/MIT-red) ![Static Badge](https://img.shields.io/badge/GPL--3.0-green) ![Static Badge](https://img.shields.io/badge/BSD--3--Clause-blue)
 
@@ -72,9 +74,3 @@ Webhook based alerting (Slack, Discord...) for events, account access, honey fil
 | ![Static Badge](https://img.shields.io/badge/Win-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/%3E__-white?style=flat&color=blue) | Deploy and manage OpenSSH Server on Windows | [PS Module](https://github.com/straysheep-dev/windows-configs/blob/main/Manage-OpenSSHServer.ps1) |
 | ![Static Badge](https://img.shields.io/badge/Win-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/%3E__-white?style=flat&color=blue) | Deploy and manage Sysinternals + Sysmon rules on Windows | [PS Script](https://github.com/straysheep-dev/windows-configs/blob/main/Manage-Sysinternals.ps1) |
 | ![Static Badge](https://img.shields.io/badge/Win-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/%3E__-white?style=flat&color=blue) | Windows Sandbox configuration files and startup scripts | [WSB Files](https://github.com/straysheep-dev/windows-configs#windows-sandbox) |
-
-### I’m currently working on...
-
-- 🎯 Other pentesting certifications
-- 🏗️ Git, infrastructure, automation
-- 🛠️ Building utilites for everyday use

@@ -45,6 +45,11 @@ A collection of ansible roles, with guidance on writing, debugging, and linting 
 Packer templates ready-to-use, with resouces to help you learn, modify, and build upon what's here. Currently the builds target QEMU and virt-manager. Automation scripts are included to import machines into the relevant GUI without having to configure anything in a GUI. Packer has a staggering number of moving parts to it, depending on how you use it. Effort has been made to comment and document as much as possible, both for packer usage itself and for each template.
 
 
+## [docker-configs](https://github.com/straysheep-dev/docker-configs) ![Static Badge](https://img.shields.io/badge/Docker-blue?logo=docker&logoColor=white) ![Static Badge](https://img.shields.io/badge/MIT-red)
+
+Various docker configuration files. This project is similar to [straysheep-dev/packer-configs](https://github.com/straysheep-dev/packer-configs). The primary use-case is for CI/CD with molecule to automate testing of Ansible roles across multiple operating systems from one development machine. `systemd`-enabled containers are supported here across the major distros (and where possible).
+
+
 ## [vagrant-configs](https://github.com/straysheep-dev/vagrant-configs) ![Static Badge](https://img.shields.io/badge/Vagrant-white?&logo=vagrant&logoColor=blue) ![Static Badge](https://img.shields.io/badge/MIT-red)
 
 How vagrant works, and everything needed to get started using it with security in mind. Includes a sample Vagrantfile for Kali on Hyper-V and VirtualBox showing what provider settings you may want to use. Quirks of Hyper-V and how to resolve them are covered. Lastly, resources to be aware of for building a home lab are linked.

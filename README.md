@@ -13,12 +13,6 @@
 | --- | --- | --- | --- | --- |
 
 
-**Certifications**
-
-| ![Static Badge](https://img.shields.io/badge/OSCP-orange) | ![Static Badge](https://img.shields.io/badge/OSWP-blue) | ![Static Badge](https://img.shields.io/badge/PNPT-purple) | ![Static Badge](https://img.shields.io/badge/eCPPT-orange) | ![Static Badge](https://img.shields.io/badge/eCMAP-blue) | ![Static Badge](https://img.shields.io/badge/eJPT-red)
-| --- | --- | --- | --- | --- | --- |
-
-
 ## Projects
 
 | 🔸 [**Guides and Utilities**](https://straysheep.dev/#__tabbed_1_3) | 🔸 [**Blog**](https://straysheep.dev/blog/) | 🔸 [**Featured Tools**](#featured-tools) |

@@ -1,75 +1,160 @@
-## [straysheep.dev](https://straysheep.dev) 🌐
+<div align="center">
 
-**Hi, I'm straysheep-dev. 👋**
+  ## [straysheep.dev](https://straysheep.dev)
 
-| About | Goals & Current Work |
-| :--- | :--- |
-| 🔸⚔️ I'm here learning security from an offensive perspective...<br> 🔸📚 ...and documenting things in a useful way as I go.<br> 🔸🛡️ I also focus on building defensive, or "visibility", tools...<br> 🔸📦 ...and configuration templates learned from exploring systems. | 🔸 🎯 Other pentesting certifications<br> 🔸 🏗️ Git, infrastructure, automation <br> 🔸 🛠️ Building utilites for everyday use |
+</div>
 
+<div align="center">
 
-**Connect**
+  [![GitHub](https://img.shields.io/badge/-gray?style=social&logo=github)](https://github.com/straysheep-dev)
+  [![GitLab](https://img.shields.io/badge/-gray?style=social&logo=gitlab)](https://gitlab.com/straysheep-dev)
+  [![Discord](https://img.shields.io/badge/straysheep_dev-gray?style=social&logo=discord)](#)
+  [![HackTheBox](https://img.shields.io/badge/straysheepdev-gray?style=social&logo=hackthebox&logoColor=green)](#)
+  [![TryHackMe](https://img.shields.io/badge/-gray?style=social&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/straysheep.dev)
+  [![Ansible Galaxy](https://img.shields.io/badge/-gray?style=social&logo=ansible&logoColor=black)](https://galaxy.ansible.com/ui/standalone/namespaces/22091/)
 
-| ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=github) <sup>**straysheep-dev**</sup> | ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=gitlab) <sup>**straysheep-dev**</sup> | ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=discord) <sup>**straysheep_dev**</sup> | ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=hackthebox&logoColor=green) <sup>**straysheepdev**</sup> | ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=tryhackme&logoColor=red) <sup>**straysheep.dev**</sup> |
-| --- | --- | --- | --- | --- |
+</div>
 
+<div align="center">
 
-## Projects
+[**Resources**](https://straysheep.dev/resources/) 🔸 [**Notes**](https://straysheep.dev/notes/about/) 🔸 [**Guides & Utilities**](https://straysheep.dev/#__tabbed_1_3)
 
-| 🔸 [**Guides and Utilities**](https://straysheep.dev/#__tabbed_1_3) | 🔸 [**Blog**](https://straysheep.dev/blog/) | 🔸 [**Featured Tools**](#featured-tools) |
-| --- | --- | --- |
+</div>
 
+<div align="center">
 
-## [linux-configs](https://github.com/straysheep-dev/linux-configs) ![Static Badge](https://img.shields.io/badge/Ubuntu-orange?logo=ubuntu&logoColor=white) ![Static Badge](https://img.shields.io/badge/Fedora-white?logo=fedora) ![Static Badge](https://img.shields.io/badge/Debian-white?logo=debian&logoColor=red) ![Static Badge](https://img.shields.io/badge/pfSense-blue?logo=pfsense&logoColor=white) ![Static Badge](https://img.shields.io/badge/OpenWRT-white?logo=openwrt) ![Static Badge](https://img.shields.io/badge/MIT-red) ![Static Badge](https://img.shields.io/badge/GPL--3.0-green) ![Static Badge](https://img.shields.io/badge/BSD--3--Clause-blue)
+*Researching and documenting.*
 
-Utilities and configuration files accompanied by guides, focusing on security. These include web browsers, GPG, SSH, DNS, VPN's, shell profiles, hypervisors, tools to parse and summarize system processes, network activity, auditd logs, strings in project files (based on bstrings) and more.
+</div>
 
+##
 
-## [windows-configs](https://github.com/straysheep-dev/windows-configs) ![Static Badge](https://img.shields.io/badge/Windows-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/PowerShell-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/MIT-red) ![Static Badge](https://img.shields.io/badge/CC_BY--SA_4.0-orange)
+<h3><a href="https://github.com/straysheep-dev/linux-configs">linux-configs</a></h3>
 
-PowerShell modules and scripts used to configure windows or automate tasks. Plus an extensive walkthrough of Windows specific items such as Hyper-V usage, Windows Sandbox, WSL + USB, logging & monitoring, and more.
+<p align="left">
+<img src="https://img.shields.io/badge/Ubuntu-orange?logo=ubuntu&logoColor=white" alt="Ubuntu">
+<img src="https://img.shields.io/badge/Fedora-white?logo=fedora" alt="Fedora">
+<img src="https://img.shields.io/badge/Debian-white?logo=debian&logoColor=red" alt="Debian">
+<img src="https://img.shields.io/badge/pfSense-blue?logo=pfsense&logoColor=white" alt="pfSense">
+<img src="https://img.shields.io/badge/OpenWRT-white?logo=openwrt" alt="OpenWRT">
+<img src="https://img.shields.io/badge/PowerShell-white?style=flat&color=blue" alt="PowerShell">
+<img src="https://img.shields.io/badge/Bash-black?logo=gnubash" alt="Bash">
+<img src="https://img.shields.io/badge/MIT-red" alt="MIT">
+<img src="https://img.shields.io/badge/GPL--3.0-green" alt="GPL-3.0">
+<img src="https://img.shields.io/badge/BSD--3--Clause-blue" alt="BSD-3-Clause">
+</p>
 
+Utilities and configuration files for any Unix-like OS. [ansible-configs](#ansible-configs) generally uses files from here.
 
-## [ansible-configs](https://github.com/straysheep-dev/ansible-configs) ![Static Badge](https://img.shields.io/badge/Ansible-white?&logo=ansible&logoColor=black) ![Static Badge](https://img.shields.io/badge/MIT-red) ![Static Badge](https://img.shields.io/badge/GPL--3.0-green) ![Static Badge](https://img.shields.io/badge/BSD--3--Clause-blue)
+##
 
-A collection of ansible roles, with guidance on writing, debugging, and linting ansible code. This includes secrets management, testing plays, and more. The roles are meant to be mixed and used however needed, and offer conditional options for deployment. The main `playbook.yml` file is commented to help you get started.
+<h3><a href="https://github.com/straysheep-dev/windows-configs">windows-configs</a></h3>
 
+<p align="left">
+<img src="https://img.shields.io/badge/Windows-white?style=flat&color=blue" alt="Windows">
+<img src="https://img.shields.io/badge/PowerShell-white?style=flat&color=blue" alt="PowerShell">
+<img src="https://img.shields.io/badge/Sysinternals-white?style=flat&color=blue" alt="Sysinternals">
+<img src="https://img.shields.io/badge/WSL-white?logo=linux&logoColor=black" alt="WSL">
+<img src="https://img.shields.io/badge/MIT-red" alt="MIT">
+<img src="https://img.shields.io/badge/CC_BY--SA_4.0-orange" alt="CC BY-SA 4.0">
+</p>
 
-## [packer-configs](https://github.com/straysheep-dev/packer-configs) ![Static Badge](https://img.shields.io/badge/Packer-white?&logo=packer&logoColor=green) ![Static Badge](https://img.shields.io/badge/MIT-red)
+PowerShell modules and scripts used to configure windows or automate tasks. Targets Windows-desktop-specific items such as Hyper-V, Windows Sandbox, WSL + USB, logging & monitoring, and more.
 
-Packer templates ready-to-use, with resouces to help you learn, modify, and build upon what's here. Currently the builds target QEMU and virt-manager. Automation scripts are included to import machines into the relevant GUI without having to configure anything in a GUI. Packer has a staggering number of moving parts to it, depending on how you use it. Effort has been made to comment and document as much as possible, both for packer usage itself and for each template.
+##
 
+<h3><a href="https://github.com/straysheep-dev/ansible-configs">ansible-configs</a></h3>
 
-## [docker-configs](https://github.com/straysheep-dev/docker-configs) ![Static Badge](https://img.shields.io/badge/Docker-blue?logo=docker&logoColor=white) ![Static Badge](https://img.shields.io/badge/MIT-red)
+<p align="left">
+<img src="https://img.shields.io/badge/Ansible-white?logo=ansible&logoColor=black" alt="Ansible">
+<img src="https://img.shields.io/badge/MIT-red" alt="MIT">
+<img src="https://img.shields.io/badge/GPL--3.0-green" alt="GPL-3.0">
+<img src="https://img.shields.io/badge/BSD--3--Clause-blue" alt="BSD-3-Clause">
+</p>
 
-Various docker configuration files. This project is similar to [straysheep-dev/packer-configs](https://github.com/straysheep-dev/packer-configs). The primary use-case is for CI/CD with molecule to automate testing of Ansible roles across multiple operating systems from one development machine. `systemd`-enabled containers are supported here across the major distros (and where possible).
+A collection of ansible roles, including example playbook and inventory files, as git submodules.
 
+See [notes/ansible](https://straysheep.dev/notes/ansible/) and [notes/ansible-molecule](https://straysheep.dev/notes/ansible-molecule/).
 
-## [vagrant-configs](https://github.com/straysheep-dev/vagrant-configs) ![Static Badge](https://img.shields.io/badge/Vagrant-white?&logo=vagrant&logoColor=blue) ![Static Badge](https://img.shields.io/badge/MIT-red)
+##
 
-How vagrant works, and everything needed to get started using it with security in mind. Includes a sample Vagrantfile for Kali on Hyper-V and VirtualBox showing what provider settings you may want to use. Quirks of Hyper-V and how to resolve them are covered. Lastly, resources to be aware of for building a home lab are linked.
+<h3><a href="https://github.com/straysheep-dev/packer-configs">packer-configs</a></h3>
 
+<p align="left">
+<img src="https://img.shields.io/badge/Packer-white?logo=packer&logoColor=green" alt="Packer">
+<img src="https://img.shields.io/badge/Windows-white?style=flat&color=blue" alt="Windows">
+<img src="https://img.shields.io/badge/Ubuntu-orange?logo=ubuntu&logoColor=white" alt="Ubuntu">
+<img src="https://img.shields.io/badge/Rocky-white?logo=rockylinux" alt="Rocky">
+<img src="https://img.shields.io/badge/Debian-white?logo=debian&logoColor=red" alt="Debian">
+<img src="https://img.shields.io/badge/Kali-blue?logo=kalilinux&logoColor=white" alt="Kali">
+<img src="https://img.shields.io/badge/MIT-red" alt="MIT">
+</p>
 
-## [terraform-configs](https://github.com/straysheep-dev/terraform-configs) ![Static Badge](https://img.shields.io/badge/Terraform-white?&logo=terraform) ![Static Badge](https://img.shields.io/badge/MIT-red)
+Packer templates ready-to-use, with resources to help you learn, modify, and build upon what's here. [ansible-configs](#ansible-configs) is a submodule of this super project.
 
-Ready to use terraform templates, and an easy to follow guide to go from installing, to deploying resources. Also includes guidance on fixing partial deployments, secrets management, and how to generate an ansible inventory from your deployed resources.
+##
 
+<h3><a href="https://github.com/straysheep-dev/docker-configs">docker-configs</a></h3>
 
-## [alert-service](https://github.com/straysheep-dev/alert-service) ![Static Badge](https://img.shields.io/badge/Windows-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/Linux-white?&logo=linux&logoColor=black) ![Static Badge](https://img.shields.io/badge/PowerShell-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/Python3-blue?&logo=python&logoColor=gold) ![Static Badge](https://img.shields.io/badge/MIT-red)
+<p align="left">
+<img src="https://img.shields.io/badge/Docker-blue?logo=docker&logoColor=white" alt="Docker">
+<img src="https://img.shields.io/badge/Ubuntu-orange?logo=ubuntu&logoColor=white" alt="Ubuntu">
+<img src="https://img.shields.io/badge/Rocky-white?logo=rockylinux" alt="Rocky">
+<img src="https://img.shields.io/badge/Fedora-white?logo=fedora" alt="Fedora">
+<img src="https://img.shields.io/badge/Debian-white?logo=debian&logoColor=red" alt="Debian">
+<img src="https://img.shields.io/badge/Kali-blue?logo=kalilinux&logoColor=white" alt="Kali">
+<img src="https://img.shields.io/badge/MIT-red" alt="MIT">
+</p>
 
-Webhook based alerting (Slack, Discord...) for events, account access, honey files, etc. It's meant as a follow up to [IppSec's video on this topic](https://www.youtube.com/watch?v=J9owPmgmfvo&t=1545s), with ready-to-use examples of sending an alert on both Windows and Linux using [cyber deception](https://github.com/strandjs/IntroLabs/blob/master/IntroClassFiles/navigation.md) to catch malicious behavior early.
+Systemd-enabled Docker configuration files for molecule testing. All submodules in [ansible-configs](#ansible-configs) run molecule CI workflows using these.
 
+##
 
-## Featured Tools
+<h3><a href="https://github.com/straysheep-dev/agent-configs">agent-configs</a></h3>
 
-| COMPONENTS | DESCRIPTION | LINKS |
-| ---: | :--- | --- |
-| ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=wireguard) ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=ansible&logoColor=black) ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=terraform) ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=linux) | Deploy a Wireguard server with interface monitoring | [Ansible](https://github.com/straysheep-dev/ansible-configs/tree/main/build_wireguard_server) + [Terraform](https://github.com/straysheep-dev/terraform-configs) |
-| ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=wireguard) ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=ansible&logoColor=black) ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=terraform) ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=linux) | Deploy a Tailscale node | [Ansible](https://github.com/straysheep-dev/ansible-configs/tree/main/build_tailscale_node) + [Terraform](https://github.com/straysheep-dev/terraform-configs) |
-| ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=pfsense&logoColor=blue) | pfSense administration, lab, usage guide | [Guide](https://straysheep.dev/blog/2024/05/02/pfsense-administration/) |
-| ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=vmware) ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=ubuntu) | VMware kernel module signing for SecureBoot on Ubuntu | [Bash](https://github.com/straysheep-dev/linux-configs/blob/main/hypervisors/vmware/vmware-sign-modules.sh) |
-| ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=linux) ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=ansible&logoColor=black) | Deploy auditd + laurel | [Ansible](https://github.com/straysheep-dev/ansible-configs/tree/main/install_auditd), [Bash](https://github.com/straysheep-dev/setup-auditd) |
-| ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=linux) ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=ansible&logoColor=black) | Deploy unbound DNS resolver with DNS over TLS + logging | [Ansible](https://github.com/straysheep-dev/ansible-configs/tree/main/install_unbound), [Bash](https://github.com/straysheep-dev/linux-configs/tree/main/dns)  |
-| ![Static Badge](https://img.shields.io/badge/Win-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/-gray?style=social&logo=linux) | Hyper-V Enhanced Session Linux guest tools (for manual installation) | [Ansible](https://github.com/straysheep-dev/ansible-configs/tree/main/hyperv_guest_tools), [Fork](https://github.com/straysheep-dev/linux-vm-tools/blob/master/ubuntu/22.04/install.sh) |
-| ![Static Badge](https://img.shields.io/badge/Win-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/%3E__-white?style=flat&color=blue) | Deploy and manage OpenSSH Server on Windows | [PS Module](https://github.com/straysheep-dev/windows-configs/blob/main/Manage-OpenSSHServer.ps1) |
-| ![Static Badge](https://img.shields.io/badge/Win-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/%3E__-white?style=flat&color=blue) | Deploy and manage Sysinternals + Sysmon rules on Windows | [PS Script](https://github.com/straysheep-dev/windows-configs/blob/main/Manage-Sysinternals.ps1) |
-| ![Static Badge](https://img.shields.io/badge/Win-white?style=flat&color=blue) ![Static Badge](https://img.shields.io/badge/%3E__-white?style=flat&color=blue) | Windows Sandbox configuration files and startup scripts | [WSB Files](https://github.com/straysheep-dev/windows-configs#windows-sandbox) |
+<p align="left">
+<img src="https://img.shields.io/badge/Claude-black?logo=claudecode&logoColor=D97757" alt="Claude">
+<img src="https://img.shields.io/badge/Linux-white?logo=linux&logoColor=black" alt="Linux">
+<img src="https://img.shields.io/badge/MIT-red" alt="MIT">
+</p>
+
+Agent configuration files to document and bootstrap workflows based on my existing codebase. Narrowly scoped agents build reusable, agent-free workflows, so they're only solving new problems.
+
+##
+
+<h3><a href="https://github.com/straysheep-dev/vagrant-configs">vagrant-configs</a></h3>
+
+<p align="left">
+<img src="https://img.shields.io/badge/Vagrant-white?logo=vagrant&logoColor=blue" alt="Vagrant">
+<img src="https://img.shields.io/badge/MIT-red" alt="MIT">
+</p>
+
+How vagrant works; includes a sample Vagrantfile for Kali on Hyper-V and VirtualBox showing what provider settings you may want to use. Quirks of Hyper-V and how to resolve them are covered. Lastly, resources to be aware of for building a home lab are linked.
+
+##
+
+<h3><a href="https://github.com/straysheep-dev/terraform-configs">terraform-configs</a></h3>
+
+<p align="left">
+<img src="https://img.shields.io/badge/Terraform-white?logo=terraform" alt="Terraform">
+<img src="https://img.shields.io/badge/MIT-red" alt="MIT">
+</p>
+
+Ready to use terraform templates, and an easy to follow guide to go from installing, to deploying resources.
+
+##
+
+<h3><a href="https://github.com/straysheep-dev/alert-service">alert-service</a></h3>
+
+<p align="left">
+<img src="https://img.shields.io/badge/Windows-white?style=flat&color=blue" alt="Windows">
+<img src="https://img.shields.io/badge/Linux-white?logo=linux&logoColor=black" alt="Linux">
+<img src="https://img.shields.io/badge/PowerShell-white?style=flat&color=blue" alt="PowerShell">
+<img src="https://img.shields.io/badge/Bash-black?logo=gnubash" alt="Bash">
+<img src="https://img.shields.io/badge/Python3-blue?logo=python&logoColor=gold" alt="Python3">
+<img src="https://img.shields.io/badge/MIT-red" alt="MIT">
+</p>
+
+Webhook based alerting (Slack, Discord) using [cyber deception](https://github.com/strandjs/IntroLabs/blob/master/IntroClassFiles/navigation.md) to catch malicious activity early, without noise.
+
+See [IppSec's video on this topic](https://www.youtube.com/watch?v=J9owPmgmfvo&t=1545s).

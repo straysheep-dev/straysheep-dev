@@ -110,6 +110,21 @@ Systemd-enabled Docker configuration files for molecule testing. All submodules 
 
 ##
 
+<h3><a href="https://github.com/straysheep-dev/browser-configs">browser-configs</a></h3>
+
+<p align="left">
+<img src="https://img.shields.io/badge/Chrome-white?logo=googlechrome" alt="Chrome">
+<img src="https://img.shields.io/badge/Firefox-purple?logo=firefox" alt="Firefox">
+<img src="https://img.shields.io/badge/Edge-blue?logo=googlechrome&logoColor=white" alt="Edge">
+<img src="https://img.shields.io/badge/MIT-red" alt="MIT">
+<img src="https://img.shields.io/badge/MPL--2.0-green" alt="MPL-2.0">
+<img src="https://img.shields.io/badge/BSD--3--Clause-blue" alt="BSD-3-Clause">
+</p>
+
+Browser configuration files. [Documentation](https://straysheep.dev/resources/#web-browsers).
+
+##
+
 <h3><a href="https://github.com/straysheep-dev/agent-configs">agent-configs</a></h3>
 
 <p align="left">
